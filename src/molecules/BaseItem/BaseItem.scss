@@ -1,0 +1,28 @@
+.base-item {
+    flex: 1;
+    padding: 20px 0px;
+    &:nth-child(1){
+        border-right: 0.5px solid rgba(0, 0, 0, 0.2);
+    }
+    &:hover {
+        cursor: pointer;
+        background: rgba(96, 125, 139, 0.03);
+    }
+    p.base-label {
+        text-align: center;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 10px;
+        color: #607D8B;
+    }
+    p.base-value {
+        text-align: center;
+        font-weight: bold;
+        margin: 0;
+        color: orangered;
+        small {
+            font-size: 0.5em;
+            font-weight: normal;
+        }
+    }
+}

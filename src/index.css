@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#root {
+  background: whitesmoke;
+  overflow: hidden;
+}
+
+.app-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  height: 100vh;
+  box-shadow: 0 0 24px rgba(0,0,0,.15);
+  overflow: hidden;
+  position: relative;
+}

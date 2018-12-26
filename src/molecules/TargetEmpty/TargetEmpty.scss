@@ -1,0 +1,26 @@
+.target-empty {
+    border: 2px solid #607D8B;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    margin: auto 20px;
+    background: #eff0f1;
+    color: #607D8B;
+    font-weight: bold;
+    .add-target {
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        &::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: url('../../assets/icon/ic-add.svg') no-repeat;
+            background-size: contain;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+}
