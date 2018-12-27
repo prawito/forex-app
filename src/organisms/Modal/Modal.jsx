@@ -1,6 +1,11 @@
-import { Button, Input, RemoveItem } from 'atom';
-import cx from 'classnames';
+// library
 import React, { PureComponent } from 'react';
+import cx from 'classnames';
+
+// local component
+import { Button, Input, RemoveItem } from 'atom';
+
+// style & assets
 import country from 'utils/country.json';
 import './Modal.scss';
 

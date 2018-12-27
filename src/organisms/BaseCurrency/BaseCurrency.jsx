@@ -1,6 +1,11 @@
+// library
 import React, { PureComponent, Fragment } from 'react';
+
+// local component
 import { BaseItem } from 'molecules';
 import { Modal } from 'organisms';
+
+// style & assets
 import './BaseCurrency.scss';
 
 class BaseCurrency extends PureComponent {
@@ -41,7 +46,8 @@ class BaseCurrency extends PureComponent {
                 baseCurrency.detail = value.detail;
                 break;
             case 'amount':
-                baseCurrency.amount = parseInt(value);
+
+                baseCurrency.amount = parseInt(value) >= 1 ? parseInt(value) : 1;
                 break;
             default:
                 baseCurrency = null;

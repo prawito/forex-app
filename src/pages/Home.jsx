@@ -1,4 +1,7 @@
+// library
 import React, { Component } from 'react';
+
+// local component
 import { Header } from 'molecules';
 import { BaseCurrency, TargetCurrency } from 'organisms';
 
@@ -8,7 +11,7 @@ class Home extends Component {
         baseCurrency: {
             id: 29,
             name: 'USD',
-            detail: 'USD',
+            detail: 'United States dollar',
             amount: 1
         },
     }

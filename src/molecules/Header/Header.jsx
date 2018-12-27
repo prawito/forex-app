@@ -1,4 +1,7 @@
+// library
 import React from 'react';
+
+// style & assets
 import logo from 'assets/shopee.svg';
 import './Header.scss';
 

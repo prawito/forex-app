@@ -1,6 +1,7 @@
+// library
 import React from "react";
-import NumberFormat from "react-number-format";
 import PropTypes from "prop-types";
+import NumberFormat from "react-number-format";
 
 const Number = ({ value }) => {
 
@@ -8,6 +9,7 @@ const Number = ({ value }) => {
         <NumberFormat
             thousandSeparator
             value={value}
+            decimalScale={2}
             displayType="text"
         />
     );

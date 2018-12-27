@@ -1,8 +1,11 @@
+// library
 import React from 'react';
+
+// style & assets
 import './TargetEmpty.scss';
 
-const TargetEmpty = ({onClick}) => {
-    return(
+const TargetEmpty = ({ onClick }) => {
+    return (
         <div className="target-empty">
             <p>No target currency added</p>
             <p className="add-target" onClick={onClick}>Add target currency</p>

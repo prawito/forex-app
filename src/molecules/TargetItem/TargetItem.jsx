@@ -1,8 +1,13 @@
-import { Number, RemoveItem } from 'atom';
+// library
 import React from 'react';
+
+// local component
+import { Number, RemoveItem } from 'atom';
+
+// style & assets
 import './TargetItem.scss';
 
-const TargetItem = ({currency, detail, amount, base, amountBase, onClick}) => {
+const TargetItem = ({ currency, detail, amount, base, amountBase, onClick }) => {
     let total = amount * amountBase;
     return (
         <div className="target-currency-item">
@@ -11,11 +16,11 @@ const TargetItem = ({currency, detail, amount, base, amountBase, onClick}) => {
                     <p className="value">{currency} <br /><small>{detail}</small></p>
                 </div>
                 <div className="target-value">
-                    <p className="amount"><Number value={total}/></p>
+                    <p className="amount"><Number value={total} /></p>
                 </div>
             </div>
             <div className="target-footer">
-                <p>1 {base} = <Number value={amount}/></p>
+                <p>1 {base} = <Number value={amount} /></p>
             </div>
             <RemoveItem onClick={onClick} />
         </div>

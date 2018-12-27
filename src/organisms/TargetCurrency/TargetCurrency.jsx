@@ -1,9 +1,14 @@
+// library
 import React, { Component, Fragment } from 'react';
-import { TargetItem, TargetEmpty } from 'molecules';
-import { AddCurrency } from 'atom';
-import { Modal } from 'organisms';
-import './TargetCurrency.scss';
 import Axios from 'axios';
+
+// local component
+import { AddCurrency } from 'atom';
+import { TargetItem, TargetEmpty } from 'molecules';
+import { Modal } from 'organisms';
+
+// style & assets
+import './TargetCurrency.scss';
 
 class TargetCurrency extends Component {
     state = {

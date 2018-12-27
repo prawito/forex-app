@@ -1,129 +1,129 @@
 [{
     "id": 1,
     "name": "HRK",
-    "detail": "HRK"
+    "detail": "Croatian kuna"
 }, {
     "id": 2,
     "name": "HUF",
-    "detail": "HUF"
+    "detail": "Hungarian forint"
 }, {
     "id": 3,
     "name": "IDR",
-    "detail": "IDR"
+    "detail": "Indonesian rupiah"
 }, {
     "id": 4,
     "name": "PHP",
-    "detail": "PHP"
+    "detail": "Philippine peso"
 }, {
     "id": 5,
     "name": "TRY",
-    "detail": "TRY"
+    "detail": "Turkish lira"
 }, {
     "id": 6,
     "name": "RON",
-    "detail": "RON"
+    "detail": "Romanian leu"
 }, {
     "id": 7,
     "name": "ISK",
-    "detail": "ISK"
+    "detail": "Icelandic krona"
 }, {
     "id": 8,
     "name": "SEK",
-    "detail": "SEK"
+    "detail": "Swedish krona"
 }, {
     "id": 9,
     "name": "THB",
-    "detail": "THB"
+    "detail": "Thai baht"
 }, {
     "id": 10,
     "name": "PLN",
-    "detail": "PLN"
+    "detail": "Polish zloty"
 }, {
     "id": 11,
     "name": "GBP",
-    "detail": "GBP"
+    "detail": "Pound sterling"
 }, {
     "id": 12,
     "name": "CAD",
-    "detail": "CAD"
+    "detail": "Canadian dollar"
 }, {
     "id": 13,
     "name": "AUD",
-    "detail": "AUD"
+    "detail": "Australian dollar"
 }, {
     "id": 14,
     "name": "MYR",
-    "detail": "MYR"
+    "detail": "Malaysian ringgit"
 }, {
     "id": 15,
     "name": "NZD",
-    "detail": "NZD"
+    "detail": "New Zealand dollar"
 }, {
     "id": 16,
     "name": "CHF",
-    "detail": "CHF"
+    "detail": "Swiss franc"
 }, {
     "id": 17,
     "name": "DKK",
-    "detail": "DKK"
+    "detail": "Danish krone"
 }, {
     "id": 18,
     "name": "SGD",
-    "detail": "SGD"
+    "detail": "Singapore dollar"
 }, {
     "id": 19,
     "name": "CNY",
-    "detail": "CNY"
+    "detail": "Chinese Yuan Renminbi"
 }, {
     "id": 20,
     "name": "BGN",
-    "detail": "BGN"
+    "detail": "Bulgarian lev"
 }, {
     "id": 21,
     "name": "CZK",
-    "detail": "CZK"
+    "detail": "Czech koruna"
 }, {
     "id": 22,
     "name": "BRL",
-    "detail": "BRL"
+    "detail": "Brazilian real"
 }, {
     "id": 23,
     "name": "JPY",
-    "detail": "JPY"
+    "detail": "Japanese yen"
 }, {
     "id": 24,
     "name": "KRW",
-    "detail": "KRW"
+    "detail": "South Korean won"
 }, {
     "id": 25,
     "name": "INR",
-    "detail": "INR"
+    "detail": "Indian rupee"
 }, {
     "id": 26,
     "name": "MXN",
-    "detail": "MXN"
+    "detail": "Mexican peso"
 }, {
     "id": 27,
     "name": "RUB",
-    "detail": "RUB"
+    "detail": "Russian ruble"
 }, {
     "id": 28,
     "name": "HKD",
-    "detail": "HKD"
+    "detail": "Hong Kong dollar"
 }, {
     "id": 29,
     "name": "USD",
-    "detail": "USD"
+    "detail": "United States dollar"
 }, {
     "id": 30,
     "name": "ZAR",
-    "detail": "ZAR"
+    "detail": "South African rand"
 }, {
     "id": 31,
     "name": "ILS",
-    "detail": "ILS"
+    "detail": "Israeli new shekel"
 }, {
     "id": 32,
     "name": "NOK",
-    "detail": "NOK"
+    "detail": "Norwegian krone"
 }]
